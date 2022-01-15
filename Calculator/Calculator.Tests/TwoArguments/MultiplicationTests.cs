@@ -4,14 +4,14 @@ using NUnit.Framework;
 namespace Calculator.Tests.TwoArguments
 {
     [TestFixture]
-    public class DivisoinTests
+    public class MultiplicationTests
     {
-        [TestCase(15, 6, 2.5)]
-        [TestCase(18, 6, 3)]
-        [TestCase(27, 6, 4.5)]
+        [TestCase(4, 7, 28)]
+        [TestCase(5, 9, 45)]
+        [TestCase(11, 11, 121)]
         public void CalculateTest(double firstValue, double secondValue, double expected)
         {
-            var calculator = new Division();
+            var calculator = new Multiplication();
             var actualResult = calculator.Calculate(firstValue, secondValue);
             Assert.AreEqual(expected, actualResult);
         }
