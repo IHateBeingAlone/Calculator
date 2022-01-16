@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Globalization;
 using System.Windows.Forms;
+using Calculator.OneArgument;
+using Calculator.TwoArguments;
 
 namespace Calculator
 {

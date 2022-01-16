@@ -1,10 +1,10 @@
-using Calculator;
+using Calculator.TwoArguments;
 using NUnit.Framework;
 
-namespace Calculator.Tests.SimpleTwoArgumentsTests
+namespace Calculator.Tests.TwoArguments
 {
     [TestFixture]
-    public class PlusTests
+    public class PlusRegularTests
     {
         [Test]
         public void CalculateTest()

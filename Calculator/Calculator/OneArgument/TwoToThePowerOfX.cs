@@ -1,17 +1,17 @@
 using System;
 
-namespace Calculator
+namespace Calculator.OneArgument
 {
-    public class TengradeX : IOneArgumentCalculator
+    public class TwoToThePowerOfX : IOneArgumentCalculator
     {
         /// <summary>
-        /// calculate function of raising ten to the power of x
+        /// calculate function of raising two to the power of x
         /// </summary>
         /// <param name="firstArgument"> any number </param>
         /// <returns> any positive number </returns>
         public double Calculate(double firstArgument)
         {
-            return Math.Pow(10, firstArgument);
+            return Math.Pow(2, firstArgument);
         }
     }
 }

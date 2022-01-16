@@ -1,6 +1,6 @@
 using System;
 
-namespace Calculator
+namespace Calculator.TwoArguments
 {
     public static class TwoArgumentsFactory
     {
@@ -21,8 +21,8 @@ namespace Calculator
                     return new Multiplication();
                 case "Division":
                     return new Division();
-                case "ngradeX":
-                    return new ngradeX();
+                case "NToThePowerOfX":
+                    return new NToThePowerOfX();
                 default:
                     throw new Exception("error");
             }

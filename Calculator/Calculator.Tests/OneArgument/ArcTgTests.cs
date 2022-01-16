@@ -1,7 +1,7 @@
-using Calculator;
+using Calculator.OneArgument;
 using NUnit.Framework;
 
-namespace Calculator.Tests.OneArguments
+namespace Calculator.Tests.OneArgument
 {
     [TestFixture]
     public class ArcTgTests

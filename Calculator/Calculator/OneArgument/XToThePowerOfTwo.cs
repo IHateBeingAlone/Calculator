@@ -1,8 +1,8 @@
 using System;
 
-namespace Calculator
+namespace Calculator.OneArgument
 {
-    public class XgradeTwo : IOneArgumentCalculator
+    public class XToThePowerOfTwo : IOneArgumentCalculator
     {
         /// <summary>
         /// calculate function of the square of the number x

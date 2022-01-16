@@ -1,4 +1,4 @@
-using Calculator;
+using Calculator.OneArgument;
 using NUnit.Framework;
 
 namespace Calculator.Tests.OneArgument

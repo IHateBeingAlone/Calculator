@@ -1,8 +1,8 @@
 using System;
 
-namespace Calculator
+namespace Calculator.TwoArguments
 {
-    public class ngradeX : ITwoArgumentsCalculator
+    public class NToThePowerOfX : ITwoArgumentsCalculator
     {
         /// <summary>
         /// calculate function of raising ten to the power of x

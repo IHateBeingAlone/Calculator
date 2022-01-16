@@ -1,6 +1,6 @@
 using System;
 
-namespace Calculator
+namespace Calculator.OneArgument
 {
     public class ArcCos : IOneArgumentCalculator
     {
