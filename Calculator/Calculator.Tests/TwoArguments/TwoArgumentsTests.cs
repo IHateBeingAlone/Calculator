@@ -1,9 +1,10 @@
 using System;
+using Calculator.TwoArguments;
 using NUnit.Framework;
 
-namespace Calculator.Tests.ArgumentsFactoryTests
+namespace Calculator.Tests.TwoArguments
 {
-    public class CalculatorTwoArguments
+    public class TwoArgumentsTests
     {
         [TestCase("Plus", typeof(Plus))]
         [TestCase("Minus", typeof(Minus))]

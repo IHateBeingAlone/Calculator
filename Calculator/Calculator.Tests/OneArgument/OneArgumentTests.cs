@@ -1,9 +1,10 @@
 using System;
+using Calculator.OneArgument;
 using NUnit.Framework;
 
-namespace Calculator.Tests.ArgumentsFactoryTests
+namespace Calculator.Tests.OneArgument
 {
-    public class CalculatorOneArgument
+    public class OneArgumentTests
     {
         [TestCase("Sin", typeof(Sin))]
         [TestCase("Cos", typeof(Cos))]
