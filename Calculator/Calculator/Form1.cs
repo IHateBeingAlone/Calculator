@@ -39,5 +39,10 @@ namespace Calculator
             double result = calculator.Calculate(firstValue);
             label1.Text = Convert.ToString(result, CultureInfo.CurrentCulture);
         }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

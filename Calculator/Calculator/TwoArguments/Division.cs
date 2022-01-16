@@ -8,7 +8,7 @@ namespace Calculator
         {
             if (secondArgument == 0)
             {
-                throw new Exception("OSHIPKA! NE DELI NA NOL', DOLBOEB");
+                throw new Exception("Error! Division by zero");
             }
             return firstArgument / secondArgument;
         }
